@@ -47,6 +47,9 @@ h2{
 .social ul, li{
     display: inline;
 }
+.social a{
+    text-decoration: none;
+}
 .social-icon{
     filter: invert(95%);
     width: 40px;
