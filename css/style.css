@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg.lorenzo-herrera.min.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+}
+
+
+body{
+    color: #f1f1f1;
+    font-family: sans-serif;
+}
+
+.text{
+    margin-top: 13%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kufam', cursive;
+    font-size: 43px;
+    margin-bottom: 2vh;
+}
+
+h2{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.social ul, li{
+    display: inline;
+}
+.social-icon{
+    filter: invert(95%);
+    width: 40px;
+    margin-top: 2vh;
+    margin-left: 10%;
+}
+.social-icon:hover{
+    filter: invert(85%);
+}
+
+.credit{
+    position: fixed;
+    bottom: 4px;
+    right: 10px;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 8vw;
+        margin-bottom: 1vh;
+    }
+
+    h2{
+        font-size: 4vw;
+    }
+
+    .social-icon{
+        width: 30px;
+    }
+}
