@@ -44,6 +44,7 @@ h2{
     font-weight: 400;
 }
 
+
 .social ul, li{
     display: inline;
 }
@@ -55,6 +56,9 @@ h2{
     width: 40px;
     margin-top: 2vh;
     margin-left: 10%;
+}
+.social-icon#first{
+    margin-left: 0%;
 }
 .social-icon:hover{
     filter: invert(85%);
