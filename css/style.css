@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
 
 *, ::before, ::after{
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 html{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg.lorenzo-herrera.min.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg.lorenzo-herrera.min.webp");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ h2{
 }
 .social-icon{
     filter: invert(95%);
-    width: 40px;
+    width: auto;
     margin-top: 2vh;
     margin-left: 10%;
 }
